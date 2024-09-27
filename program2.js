@@ -4,6 +4,9 @@
  */
 var romanToInt = function(s) {
     const romanNumberals = {
+        I:1,
+        V:5,
+        X:10,
         
     }
 };
