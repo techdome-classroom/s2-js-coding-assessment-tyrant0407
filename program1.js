@@ -11,7 +11,7 @@ var isValid = function(s) {
         }else{
             const top = stack.pop();
             if(top ===null || (char ===')' && top!=='(') || (char ==='}' && top!=='{') || (char ===']' && top!=='[')  ){
-                
+                return false;
             }
         }
     }
