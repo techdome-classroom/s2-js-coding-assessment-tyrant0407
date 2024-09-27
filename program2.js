@@ -12,7 +12,9 @@ var romanToInt = function(s) {
         D:500,
         M:1000,
     };
-    
+    let result = 0;
+    let prev = 0;
+    for(let i=s.length-1; i>=0;)
 };
 
 
