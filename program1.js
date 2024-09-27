@@ -9,7 +9,8 @@ var isValid = function(s) {
         if(char === '(' || char ==='{' || char ==='['){
             stack.push(char);
         }else{
-            const top = stack
+            const top = stack.pop();
+            if(top ===null)
         }
     }
 };
