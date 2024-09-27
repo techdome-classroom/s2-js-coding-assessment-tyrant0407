@@ -4,6 +4,8 @@
  */
 var isValid = function(s) {
     const stack = [];
+
+    for(let )
 };
 
 module.exports = { isValid };
