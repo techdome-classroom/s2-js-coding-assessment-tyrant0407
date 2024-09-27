@@ -10,7 +10,7 @@ var isValid = function(s) {
             stack.push(char);
         }else{
             const top = stack.pop();
-            if(top ===null || (char ===')') ||top ===null ||top ===null ||)
+            if(top ===null || (char ===')' && top!=='(') ||top ===null ||top ===null ||)
         }
     }
 };
