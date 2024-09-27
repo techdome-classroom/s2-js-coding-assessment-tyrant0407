@@ -14,7 +14,9 @@ var romanToInt = function(s) {
     };
     let result = 0;
     let prev = 0;
-    for(let i=s.length-1; i>=0;)
+    for(let i=s.length-1; i>=0;i--){
+        
+    }
 };
 
 
