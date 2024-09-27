@@ -5,7 +5,9 @@
 var isValid = function(s) {
     const stack = [];
 
-    for(let )
+    for(let char of s){
+        if
+    }
 };
 
 module.exports = { isValid };
